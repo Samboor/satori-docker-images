@@ -26,4 +26,4 @@ jobs:
         with:
           context: ./oop
           push: true
-          tags: ghcr.io/${{ github.repository_owner }}/satori-docker-images:oop
+          tags: ghcr.io/${{ github.repository_owner | lower }}/satori-docker-images:oop
